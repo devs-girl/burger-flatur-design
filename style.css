@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Roboto:wght@300;500;700;900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dongle', sans-serif;
+  overflow-x: hidden;
+  background: #1D1E1A;
+  background-image: url(./img/bg.png);
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  line-height: 1;
+}
+
+:root {
+  accent-color: #006532;
+}
+/* header  */
+.header-bg {
+	padding: 20px 0;
+}
+.navbar {
+	padding: 0 !important;
+
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #83A100;
+  transition: .3s;
+}  
+.navbar .navbar-nav .nav-link {
+  padding: 1em .7em;
+font-size: 28px !important;
+transition: all 0.5s;
+}
+.navbar .navbar-brand {
+padding: 0 0.6em;
+font-size: 1.5em;
+font-weight: bold;
+}
+
+.navbar-expand-lg {
+ }
+.nav-link {
+  font-weight: 600;
+  color: #fff !important;
+  padding:   25px !important;
+  font-size: 16px;
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+.toggler-icon{
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+  transition: all 0.2s;
+}
+.middle-bar{
+  margin: 5px auto;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+/* main */
+.main-body-fl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.burgar-img img {
+	width: 100%;
+}
+
+.burgar-text h1 {
+	font-size: 137px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 109px;
+}
+.burgar-text h3 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #F7B221;
+	border-bottom: 2px solid #F7B221;
+  margin-bottom: 40px
+}
+.burgar-text p {
+	font-size: 19px;
+	font-weight: 400;
+	color: #BACAD7;
+	line-height: 1;
+	margin-bottom: 50px;
+}
+
+.btn-main {
+	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #fff;
+	padding: 0px 35px;
+	border-radius: 25px;
+	font-size: 30px;
+	margin-right: 30px;
+}
+.btn-main:hover {
+    transition: .3s;
+	border: 2px solid #83A100;
+    background: #83A100;
+    color: #fff;
+}
+
+
+
+
+
+
+ 

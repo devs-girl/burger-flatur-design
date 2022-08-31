@@ -1,0 +1,48 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .burgar-text h1 {
+        font-size: 71px;
+    }
+    .btn-main {
+        padding: 0px 13px;
+    }
+    .burgar-text h3 {
+        font-size: 30px;
+    }
+    .burgar-text h1 {
+        line-height: 60px;
+    }
+
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .burgar-text h1 {
+        font-size: 70px;
+    }
+    .burgar-text h3 {
+        font-size: 30px;
+    }
+    .btn-main {
+        padding: 0px 20px;
+    }
+    main {
+        text-align: center;
+    }
+    .burgar-btn-fl {
+        padding-bottom: 40px;
+    }
+}
